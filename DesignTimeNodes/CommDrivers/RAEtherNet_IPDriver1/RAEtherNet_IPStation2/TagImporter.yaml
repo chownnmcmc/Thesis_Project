@@ -1,0 +1,23 @@
+Name: TagImporter
+Id: g=bf079319edf3199dbed56857f7fac8a3
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=fbc7b998ea1bf72d48f0dfd6d18986ca
+Children:
+- Name: IgnoredPLCItems
+  Id: g=e8d083e46099ce21003ef634a32f0425
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=3b4b824838f0ddf1784fa9d753146263
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: FilePath
+  Id: g=5bc1d8cee4f705582459616c6fd0c1c1
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/chownn/Documents/Studio 5000/Projects/MH_DemoRoom_Drives_L310_Compressed.ACD"

@@ -1,0 +1,2627 @@
+Name: DataTypes
+Id: g=0de5a346a4fb7b66eedde7dc157d4e8a
+Type: FolderType
+Children:
+- Class: DataType
+  Name: MESSAGE1
+  Id: g=c9757e201e134d5a385455e636181ffe
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MESSAGE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c9757e201e134d5a385455e636181ffe",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Flags",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "EW",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ST",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN_CC",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ERR",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ERR_SRC",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "DN_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "REQ_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DestinationLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DestinationNode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "SourceLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Class",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Attribute",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Instance",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LocalIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Channel",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Rack",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Group",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Slot",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Path",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "RemoteIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "RemoteElement",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UnconnectedTimeout",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ConnectionRate",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TimeoutMultiplier",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MESSAGE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=1b311d84a88f4ba8570c806bf729a9f1
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1732_8IOLTIMESTAMPE25BA4C4:I:0'
+  Id: g=b8ea58e96e74aea867a35f0c915bcb59
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1732_8IOLTIMESTAMPE25BA4C4:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b8ea58e96e74aea867a35f0c915bcb59",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e157877773f6d7667abe8e6cb27609cf",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch0DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch1DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch2DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch3DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch4DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch5DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch6DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch7DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "LocalClockOffset",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "OffsetTimestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "GrandmasterClockId",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [8]
+     },{
+      "Name": "Ch0Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch1Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch2Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch3Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch4Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch5Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch6Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch7Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "SynchedToMaster",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Triggered",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0MarginLowAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ProximityAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0Gain",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch0SignalStrength",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Ch1Triggered1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Triggered2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Pressure",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2Triggered",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2MarginLowAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ProximityAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Gain",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch2SignalStrength",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Ch3InputVoltage",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3GeneralStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3HardwareLock",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3WarningLimit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3ShortCircuit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3OverLoad",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch16Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch15Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch14Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch13Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch12Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch11Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch10Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch09Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch08Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch07Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch06Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch05Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch04Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch03Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch02Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3Ch01Current",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch4Triggered1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Triggered2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Temperature",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5Triggered1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Triggered2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5SignalQualityScore",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Distance",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch5SignalQuality",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6ApplicationName",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6UserConfig",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ModuleSensorPwrLow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ModuleActuatorPwrLow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ModuleInputError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ModuleOutputError",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6PortError",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch6Ch8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch15",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch7",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ClassBVoltage",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ClassAVoltage",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7DeviceTemperature",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7CircuitStatus",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7AlarmStatus",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1732_8IOLTIMESTAMPE25BA4C4:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=fa1d4abdddc93209352e548c94946c68
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1732_8IOLC62B2DE2:O:0'
+  Id: g=1482ccef8841725ffafd4941f0121653
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1732_8IOLC62B2DE2:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1482ccef8841725ffafd4941f0121653",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Ch3On",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch3TripReset",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Ch6Reserved_09",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_15",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ConfigRST",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_01",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_03",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_04",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_05",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_06",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_07",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Reserved_08",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch9",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch10",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch13",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch15",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Ch7",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ControlModule7",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule6",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule5",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule4",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule3",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule2",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Ch7ControlModule1",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1732_8IOLC62B2DE2:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=dd23a1916aefd2cffea0364e1aaa221a
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+  Id: g=b72c2f73a099533f26e162811a285e7f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1732_8IOLTIMESTAMP_Struct_Event:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b72c2f73a099533f26e162811a285e7f",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "SequenceCount",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Qualifier",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Source_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Source_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Source_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Location",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Type_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Type_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Mode_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Mode_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Code",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1732_8IOLTIMESTAMP_Struct_Event:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=2068137a029262ba80a507fc809e005a
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1732_8IOL_Struct_Status:I:0'
+  Id: g=e157877773f6d7667abe8e6cb27609cf
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1732_8IOL_Struct_Status:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e157877773f6d7667abe8e6cb27609cf",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Ch0Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch0NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch1NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch2NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch3NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch4NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch5NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch6NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ConfigurationInProgress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7KeyingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ShortCircuit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7DataInvalid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7PowerFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7ClampAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ch7NoIoSize",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1732_8IOL_Struct_Status:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=b4553332bd228f7102b1ccb43c70f046
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:440R_ENETRv2_91132:I:0'
+  Id: g=6ec6bdf6dfeed88ade987b291b8dc74a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:440R_ENETRv2_91132:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6ec6bdf6dfeed88ade987b291b8dc74a",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EthernetLink1Sts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EthernetLink2Sts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OpticalLinkSts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OpticalLink2Sts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OpticalLink3Sts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay1Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay2Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay3Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay4Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay5Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay6Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Relay1_GSR_GLT",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e01cfb39faeb426312692112bad4639a",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Relay2_GSR_DIS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f4dc95f70719ce3dd9edb4c5541b465f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Relay3_GSR_DIS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f4dc95f70719ce3dd9edb4c5541b465f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Relay4_GSR_EM",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a7088a86027435acdf8532443a50852a",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Relay5_GSR_DI",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f4dc95f70719ce3dd9edb4c5541b465f",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:440R_ENETRv2_91132:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=ffe3202f7b9fd4fc929425e0133555d8
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:GSR_DIS_V2:I:0'
+  Id: g=f4dc95f70719ce3dd9edb4c5541b465f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:GSR_DIS_V2:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f4dc95f70719ce3dd9edb4c5541b465f",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "IN01",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IN02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SingleWireSafetyIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetRequired",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CrossLoopOK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutput",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RecoverableFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverableFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S22",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S32",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S42",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L12",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S34",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverableFault_A",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "NonRecoverableFault_B",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "S12OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S22OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S32OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S42OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CrossLoopFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InvalidSwitchSetting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetHeldOn",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:GSR_DIS_V2:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=9d492fa5ee5be2952a837ca5a0485556
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:GSR_EM_V2:I:0'
+  Id: g=a7088a86027435acdf8532443a50852a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:GSR_EM_V2:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a7088a86027435acdf8532443a50852a",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "SingleWireSafetyIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutput",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Recoverable_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverable_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverableFault_A",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "NonRecoverableFault_B",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:GSR_EM_V2:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=33516716ecd9b494e02c57dcea73c1fc
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:GSR_GLT_V2:I:0'
+  Id: g=e01cfb39faeb426312692112bad4639a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:GSR_GLT_V2:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e01cfb39faeb426312692112bad4639a",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "S12_S22_Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SingleWireSafetyIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LockRequest_S44",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnLockRequest_S54",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Recoverable_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverable_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OSSD_51",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L61_Door_Cntrl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Y32",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OSSD_14",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OSSD_24",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L61_OSSD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L11",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonRecoverableFault_A",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "NonRecoverableFault_B",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "CrossLoopFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S12OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "S22OpenWire",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LockRequest_GateOpen",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Gate_Retrigger_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GateOpen_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:GSR_GLT_V2:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=4b175a4969a5e2d44a5d0fd829f46574
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_IOLinkSensorAnalog_Set
+  Id: g=07658baf499c159af5afd8857627cdbc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_IOLinkSensorAnalog_Set",
+    "DataType": {
+     "IdType": 2,
+     "Id": "07658baf499c159af5afd8857627cdbc",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_IOLinkSensorAnalog_Set"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=cffad1a1e8352940cd90d5cf95542315
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_856T_Inp_8IOL
+  Id: g=89fc4f5fb21183256b9cbf4b897efa28
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_856T_Inp_8IOL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "89fc4f5fb21183256b9cbf4b897efa28",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e157877773f6d7667abe8e6cb27609cf",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch0DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch1DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch2DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch3DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch4DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch5DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch6DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Ch7DiagEvent",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "LocalClockOffset",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "OffsetTimestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "GrandmasterClockId",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [8]
+     },{
+      "Name": "Ch0Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch1Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch2Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch3Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch4Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch5Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch6Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Ch7Timestamp",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "SynchedToMaster",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ChClassBVoltage",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "ChClassAVoltage",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "ChDeviceTemperature",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "ChCircuitStatus",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "ChAlarmStatus",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_856T_Inp_8IOL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=7e3769f61507c4e244752c55215979ec
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Dvc_856T_8IOL
+  Id: g=ace0755ead63401ee95f92b2f93389a8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Dvc_856T_8IOL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ace0755ead63401ee95f92b2f93389a8",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Channel_Number",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Update",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "raC_Dvc_ADFramework_DV_LD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Channel_No",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Dvc_856T_8IOL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=d0ceb8c5097ea14aab55fa1bf139e1c2
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_856T_Sensor_Data
+  Id: g=b36be99e261ab4625ad3ea06efd96f07
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_856T_Sensor_Data",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b36be99e261ab4625ad3ea06efd96f07",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Read_Index_Data",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Write_Index_Data",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Read_Subindex_Data",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Write_Subindex_Data",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Msg_Config_Assembly",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_856T_Sensor_Data"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=0e5cc6d20560df172b4b59d4e4d33f61
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_Event
+  Id: g=2261ee6718f7c1ddf900f22a1f358864
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_Event",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2261ee6718f7c1ddf900f22a1f358864",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Type",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Action",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Value",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "EventTime_L",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "EventTime_D",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_Event"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=2683dd619940fd29ad65f63d44efb353
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_IOLChAnalog
+  Id: g=9285c6d74559604fcc122166a04fbacc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_IOLChAnalog",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9285c6d74559604fcc122166a04fbacc",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "EU",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Uncertain",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_IOLChAnalog"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=daf54e1329941ed68075d441bf83c94f
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_IOLinkSensorAnalog_Cmd
+  Id: g=126a1e28f68ea22f56706762c209f313
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_IOLinkSensorAnalog_Cmd",
+    "DataType": {
+     "IdType": 2,
+     "Id": "126a1e28f68ea22f56706762c209f313",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "bCmd",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ResetWarn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Locate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Activate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Deactivate",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_IOLinkSensorAnalog_Cmd"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=50d4c48fe995f4e98df47e7925dda204
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_IOLinkSensorAnalog_Sts
+  Id: g=e10c94be64dfddb508590e955a2e0f19
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_IOLinkSensorAnalog_Sts",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e10c94be64dfddb508590e955a2e0f19",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FirstWarning",
+      "DataType": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      }
+     },{
+      "Name": "FirstFault",
+      "DataType": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      }
+     },{
+      "Name": "eCmdFail",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Channel",
+      "DataType": {
+       "IdType": 2,
+       "Id": "9285c6d74559604fcc122166a04fbacc",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_IOLinkSensorAnalog_Sts"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=9613bd8e2808b8a4f9f1b5aec74ef454
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_LookupMember_STR0082
+  Id: g=405a99c8c4c0744625d4e9fa575d7b4e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_LookupMember_STR0082",
+    "DataType": {
+     "IdType": 2,
+     "Id": "405a99c8c4c0744625d4e9fa575d7b4e",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Code",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Desc",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_LookupMember_STR0082"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=fbe58f6666ac144e8bdfe7d937ca9f3a
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SAFETY_MAT
+  Id: g=3bc11e4c388f6094d86a5707f787b3dd
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SAFETY_MAT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3bc11e4c388f6094d86a5707f787b3dd",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RestartType",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ChannelA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ChannelB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ShortCircuitDetectDelayTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "O1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SRCA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SRCB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FP",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DiagnosticCode",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SAFETY_MAT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=3beeac2e2a434db10b338c06613a1dae
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

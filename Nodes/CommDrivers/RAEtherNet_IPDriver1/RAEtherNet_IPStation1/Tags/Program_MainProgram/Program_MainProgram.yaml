@@ -1,0 +1,3557 @@
+Name: 'Program:MainProgram'
+Id: g=a61d3ef0efbfce4a1ee6d6fbabf0ab70
+Type: FolderType
+Children:
+- Name: Stacklight
+  Id: g=005313a9e241229b7897b8af17bc3503
+  Type: raC_Dvc_856T_8IOL
+  DataType: raC_Dvc_856T_8IOL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ace0755ead63401ee95f92b2f93389a8",
+     "Namespace": 7
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Channel_Number": 0,
+     "Update": false,
+     "Sts_Connected": false,
+     "Sts_Warning": false,
+     "Sts_Available": false,
+     "Sts_Faulted": false,
+     "Sts_Ready": false,
+     "Sts_Active": false,
+     "Sts_bNotReady": 0,
+     "raC_Dvc_ADFramework_DV_LD": false,
+     "Channel_No": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Id: g=60299ebbffdad4580181417f30cd18f5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=66fd47903cac4ddfdcbaaa8d7439fe59
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.EnableIn"
+  - Name: EnableOut
+    Id: g=6cf445c10396cfc189e18a92e48dabff
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=bb336ec6cb72cc578cc1bce98208a211
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.EnableOut"
+  - Name: Channel_Number
+    Id: g=ade5c984e0d3e05f3742d85d60c662d6
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=4b68041e053839f8e9fe8276eea27cf7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Channel_Number"
+  - Name: Update
+    Id: g=3a59c6c4ab205c007f8c1dd17056a68d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=733295eb788f5c676a698866a9a2219f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Update"
+  - Name: Sts_Connected
+    Id: g=f0575dec7e50e0fbba1d9cd6cfc1cdcb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8f0ccee8df8786df92aad7714ab6b6e4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Connected"
+  - Name: Sts_Warning
+    Id: g=3a029cd7aa38fc6649fb5b187a514b54
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5b5ecd22a44cca064ae13422a87a7450
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Warning"
+  - Name: Sts_Available
+    Id: g=d35ecc6c2180305429eadc615263f3f5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=819788f117cf0b888d74c72d13d2a108
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Available"
+  - Name: Sts_Faulted
+    Id: g=d7a31471caa9189927d6abafe9a39194
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=053b67cf6d2827ee3bee00417711851c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Faulted"
+  - Name: Sts_Ready
+    Id: g=e440276336639569c541ec004eccc071
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=12c24fc22d62f7a671549beef9f5bf85
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Ready"
+  - Name: Sts_Active
+    Id: g=38a4286941ddc40496b370a1bd613103
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=77d4b61e629a4645d18a0f0dcba50481
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_Active"
+  - Name: Sts_bNotReady
+    Id: g=abe9da3a41ac72d185d500cea9e17eda
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=4b84ee248ab1cf98b7f65460f99f27b1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Sts_bNotReady"
+  - Name: raC_Dvc_ADFramework_DV_LD
+    Id: g=f65db33a5ff7e95f9b88a85af956498a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=36eaf3920156c508e71fdaf7aade4b99
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.raC_Dvc_ADFramework_DV_LD"
+  - Name: Channel_No
+    Id: g=967c307779ff367310e969ba8bdccf9b
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=5f50cf0b6a2d7efaebae9e02d70eb441
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight.Channel_No"
+- Name: Stacklight_CtrlCmd
+  Id: g=fc3521cc46d186d3f9f9d036d8239096
+  Type: raC_UDT_ItfAD_IOLinkSensorAnalog_Cmd
+  DataType: raC_UDT_ItfAD_IOLinkSensorAnalog_Cmd
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "126a1e28f68ea22f56706762c209f313",
+     "Namespace": 7
+    },
+    "Body": {
+     "bCmd": 0,
+     "ResetWarn": false,
+     "ResetFault": false,
+     "Physical": false,
+     "Virtual": false,
+     "Locate": false,
+     "Activate": false,
+     "Deactivate": false
+    }
+   }
+  Children:
+  - Name: bCmd
+    Id: g=3eddf4400b3a29c20ed65c8c33aa30fa
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=ca2cace96487bb3e48906f92058bf6fa
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.bCmd"
+  - Name: ResetWarn
+    Id: g=2da283ad946bcb74cb7461f20b81ad23
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=06eb7739c6f923f10aff179a4113fc72
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.ResetWarn"
+  - Name: ResetFault
+    Id: g=d868143caf5a5e660240ad17f3b34be6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=b860f95aa6de09779adf648ebc3ff082
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.ResetFault"
+  - Name: Physical
+    Id: g=b45f03f27a80182b1b526ed860a234cb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8581a7fda7a16c29e8f7fe508a7fef43
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.Physical"
+  - Name: Virtual
+    Id: g=2d821a9d4cedb3309338a5f8c7362b76
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=35ea75e6aaeb9f0d7d6843fe4833629d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.Virtual"
+  - Name: Locate
+    Id: g=4235b490ab66ba648a7dd9dd3ff2511f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=79c7b328b3179ffac7033d1acb9964d3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.Locate"
+  - Name: Activate
+    Id: g=a0a68d942ebfa89b2a2673dba1780fe8
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=d02641600096b0fc7433efbe0991ff91
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.Activate"
+  - Name: Deactivate
+    Id: g=e22ca8078875b8ffed07f013e2d99d1e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c3832f00563d429e845c901a4de6de90
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlCmd.Deactivate"
+- Name: Stacklight_CtrlSet
+  Id: g=cbf2e060ed8fb9a623c27cc9f0bfabc0
+  Type: raC_UDT_ItfAD_IOLinkSensorAnalog_Set
+  DataType: raC_UDT_ItfAD_IOLinkSensorAnalog_Set
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "07658baf499c159af5afd8857627cdbc",
+     "Namespace": 7
+    },
+    "Body": {
+     "InhibitCmd": false,
+     "InhibitSet": false
+    }
+   }
+  Children:
+  - Name: InhibitCmd
+    Id: g=12e63b24b66e358c66647953d436c1e6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=1893fd862906afe97bb7d6516070473f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSet.InhibitCmd"
+  - Name: InhibitSet
+    Id: g=df50a009b58059411167d84ff9479c2f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8dd358ba2b370ee11df987cb8aa9c86f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSet.InhibitSet"
+- Name: Stacklight_CtrlSts
+  Id: g=c5421abcdeb80459cc6b8b2afdfe96ed
+  Type: raC_UDT_ItfAD_IOLinkSensorAnalog_Sts
+  DataType: raC_UDT_ItfAD_IOLinkSensorAnalog_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e10c94be64dfddb508590e955a2e0f19",
+     "Namespace": 7
+    },
+    "Body": {
+     "eState": 0,
+     "FirstWarning": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "FirstFault": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "eCmdFail": 0,
+     "bSts": 0,
+     "Connected": false,
+     "Available": false,
+     "Warning": false,
+     "Faulted": false,
+     "Physical": false,
+     "Virtual": false,
+     "Channel": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9285c6d74559604fcc122166a04fbacc",
+       "Namespace": 7
+      },
+      "Body": {
+       "Data": 0.0,
+       "EU": "",
+       "Fault": false,
+       "Uncertain": false
+      }
+     }
+    }
+   }
+  Children:
+  - Name: eState
+    Id: g=78de39ce899696e0e55a3445db9a9bca
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=f0048d0553e0baefab7843aae30b18fa
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.eState"
+  - Name: FirstWarning
+    Id: g=6d9aaa45ee161797ded12053a7c17da9
+    Type: raC_UDT_Event
+    DataType: raC_UDT_Event
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Id: g=cf8d55199e5e542d78a91601f12a3c7e
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=76673a5ca5d8ea850bf56128addeceed
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.Type"
+    - Name: ID
+      Id: g=bb3010a2560efc43c1d4912cc951b8e6
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=60e8fbe3789aebb39821857e28a23854
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.ID"
+    - Name: Category
+      Id: g=6b495fb5db9e9fd1e98b4f724695d700
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=86eb3f94cd680727e3666bb45c2aac01
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.Category"
+    - Name: Action
+      Id: g=4d7f2d5c4bbcf9baff96f125e3e0d7db
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=6a41bbb8a1837afa4cdbaabd290042ba
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.Action"
+    - Name: Value
+      Id: g=43731aa3ebdfc18577b583f6a5f2467d
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=5a146d9fa9ad88c39bba09c9a60e165f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.Value"
+    - Name: Message
+      Id: g=fc42e856b6bee1d279cfe301b5d1dc19
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Id: g=6a46ac0a6f77e3dd5ed1372d06439cd2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.Message"
+    - Name: EventTime_L
+      Id: g=be42305441f4784bd17f822e0eeb9395
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=0aa3f45c683dd3d2cb48cb3ed839e45a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.EventTime_L"
+    - Name: EventTime_D
+      Id: g=6f6b26dc5cf36c7d1233f699a0f5553a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=aa2b8fb395d364fc5f65ffb39548dfe1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstWarning.EventTime_D"
+  - Name: FirstFault
+    Id: g=702af9fd10d0e33b510c45d078a64119
+    Type: raC_UDT_Event
+    DataType: raC_UDT_Event
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2261ee6718f7c1ddf900f22a1f358864",
+       "Namespace": 7
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Id: g=92e0e6944beb4bf4cdecdbdabd4e9f44
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=8939f417b287b7b8eb67aae5fd11211f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.Type"
+    - Name: ID
+      Id: g=22d072091db510b17ea4c5cf3cb3fc95
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=1e5c548e5f817fd04f9f736bd8848029
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.ID"
+    - Name: Category
+      Id: g=95c97a2512363578ac3d7b876f436b84
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=fc48f4abcaaaae553f6bb54c7ebe7db3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.Category"
+    - Name: Action
+      Id: g=fc76fa87cbf112229da206b1d5fba81a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=41dffe5bbe07322026529066c255f80f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.Action"
+    - Name: Value
+      Id: g=1ed32318b92e4d50cfd570f0519a600e
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=c73139f21814d5cd9f5e9516b3abf1b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.Value"
+    - Name: Message
+      Id: g=725e0582b162cee70a1288915468f823
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Id: g=4f8ef22b7b8cc0733a267f56fc9ed054
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.Message"
+    - Name: EventTime_L
+      Id: g=401bbfaa7ab93150a4890eaaa58d1c68
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=146609f66de3b8fee1dc442764a9d3c8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.EventTime_L"
+    - Name: EventTime_D
+      Id: g=034bb0e3f77839eeae13c3c17bce2f3d
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=7a3915d469a2608397c87591a09c0b0d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.FirstFault.EventTime_D"
+  - Name: eCmdFail
+    Id: g=b375c091937f160c64d7bf43316834e3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=a62fdc41006450c42028a5b476b78ae4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.eCmdFail"
+  - Name: bSts
+    Id: g=0dd68a793d92ebdd42a6ef85481bb8ce
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=f18f6bc43a6bfa717a9f8aff9d8fb6d7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.bSts"
+  - Name: Connected
+    Id: g=de0f957353898d02913ad876887986e2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9d4979b4d27d3680d13d4c0b93266ec2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Connected"
+  - Name: Available
+    Id: g=9e8dd9d0a36be38b232238ee171703b0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=35879c20ec0ab0c2ba208760bfda24b5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Available"
+  - Name: Warning
+    Id: g=ce6c2a6a77b14df72cc2264ee8c37d35
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=75fb73213d1ce6d5d70dfd802051e914
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Warning"
+  - Name: Faulted
+    Id: g=ccefa9ecd2359796df5918b92c392254
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=13a5014681c29871bcc44d5ac4a73fd7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Faulted"
+  - Name: Physical
+    Id: g=2e081f0c9e0c466aa0db30a86860e2cf
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=d8f582621ff871d1f893d3d8fe0184af
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Physical"
+  - Name: Virtual
+    Id: g=73050c401de8d74f9518493c2fa6af01
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e715216df5fbb68b09d14921d377b7d1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_CtrlSts.Virtual"
+  - Name: Channel
+    Id: g=ce57a0f3cd91284aee29912945d9b65d
+    Type: raC_UDT_IOLChAnalog
+    DataType: raC_UDT_IOLChAnalog
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9285c6d74559604fcc122166a04fbacc",
+       "Namespace": 7
+      },
+      "Body": {
+       "Data": 0.0,
+       "EU": "",
+       "Fault": false,
+       "Uncertain": false
+      }
+     }
+    Children:
+    - Name: Data
+      Id: g=9a448dc19592040f716bfd45d0c1dc76
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=c2a21b6de2b91b573474f7598cd6d3a5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.Channel.Data"
+    - Name: EU
+      Id: g=17527d5e54542e4e7b6326474c52527f
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Id: g=faa2d01fd3fc8b16de4eab792ef42094
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.Channel.EU"
+    - Name: Fault
+      Id: g=c9b8e71cd3b9ecc4c8989cc885b0b4f3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a41cc9e609a24d6baa554172ca2907dd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.Channel.Fault"
+    - Name: Uncertain
+      Id: g=0036ecc67bdfb5d1e18cae49fe9ffb98
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ea7c374a97a87c8bd476a5a0acdaa54c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_CtrlSts.Channel.Uncertain"
+- Name: Stacklight_Inp_I
+  Id: g=8d7578539d47420bceb1c044a859a991
+  Type: raC_UDT_ItfAD_856T_Inp_8IOL
+  DataType: raC_UDT_ItfAD_856T_Inp_8IOL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "89fc4f5fb21183256b9cbf4b897efa28",
+     "Namespace": 7
+    },
+    "Body": {
+     "Fault": 0,
+     "Status": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e157877773f6d7667abe8e6cb27609cf",
+       "Namespace": 7
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     },
+     "Ch0DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch1DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch2DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch3DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch4DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch5DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch6DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch7DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "LocalClockOffset": [0,0],
+     "OffsetTimestamp": [0,0],
+     "GrandmasterClockId": [0,0,0,0,0,0,0,0],
+     "Ch0Timestamp": [0,0],
+     "Ch1Timestamp": [0,0],
+     "Ch2Timestamp": [0,0],
+     "Ch3Timestamp": [0,0],
+     "Ch4Timestamp": [0,0],
+     "Ch5Timestamp": [0,0],
+     "Ch6Timestamp": [0,0],
+     "Ch7Timestamp": [0,0],
+     "SynchedToMaster": false,
+     "ChClassBVoltage": 0,
+     "ChClassAVoltage": 0,
+     "ChDeviceTemperature": 0,
+     "ChCircuitStatus": 0,
+     "ChAlarmStatus": 0
+    }
+   }
+  Children:
+  - Name: Fault
+    Id: g=2ea84ed3082ac544a6afe43792a59b38
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=ee3cf92f05dcbefe087e122fc8cc7a87
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Fault"
+  - Name: Status
+    Id: g=204a82108a850a1474b09e0ad97f4a26
+    Type: 'AB:1732_8IOL_Struct_Status:I:0'
+    DataType: 'AB:1732_8IOL_Struct_Status:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e157877773f6d7667abe8e6cb27609cf",
+       "Namespace": 7
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     }
+    Children:
+    - Name: Ch0Fault
+      Id: g=16ad8bf2d145bb248fc62952d1344769
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=67f078ba59644ab169f955758330b7c9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0Fault"
+    - Name: Ch0ConnectionFaulted
+      Id: g=ad3668730dac15edb11e2fd277820462
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=df0f7be2ba7851c6a5aaf3ff0796e467
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0ConnectionFaulted"
+    - Name: Ch0ConfigurationInProgress
+      Id: g=fc711a16cb67582e1e62166e97f1a9bd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=988c1b8f4647812e949759c7e31736c0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0ConfigurationInProgress"
+    - Name: Ch0ConfigurationFault
+      Id: g=400c563d5a0104b51dfb122a044d1fed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4781c486101de5af881056ea6cfc2eb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0ConfigurationFault"
+    - Name: Ch0KeyingFault
+      Id: g=a386df561b2b86c878c66e002ce31499
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=f121a9ac88af02bb9036824090a0f17e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0KeyingFault"
+    - Name: Ch0ShortCircuit
+      Id: g=1ac8ed5b4c2badb46909ec5993db8b0a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=d748f68497309c4676ceabfc0a2f1a89
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0ShortCircuit"
+    - Name: Ch0DataInvalid
+      Id: g=fd3ba1816670cfbd332029c40ba0abd4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=544c13aa8ad18c71becefe0e593266f6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0DataInvalid"
+    - Name: Ch0PowerFault
+      Id: g=07705b572a2b38097235323f8fbc4100
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b2ea3d5cde99bbdc90b7bc3593859105
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0PowerFault"
+    - Name: Ch0ClampAlarm
+      Id: g=22409c2fd2e19f16087e7eba5d07c6a5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=7784412bb8a7e3ad51fb9c01c8e1f0a9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0ClampAlarm"
+    - Name: Ch0NoIoSize
+      Id: g=26bcbdc22d433e764f7a2c6dcaea642a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=5655e3c2eefc326162143aee55def2f7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch0NoIoSize"
+    - Name: Ch1Fault
+      Id: g=bde15a06ec04d609579f79887b90f037
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=361d7bb595d57b7adf4fc6846e464293
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1Fault"
+    - Name: Ch1ConnectionFaulted
+      Id: g=931ebe363813d3612fa646b40d7c924c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=76c59f5b796fe2224d76d1504f364424
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1ConnectionFaulted"
+    - Name: Ch1ConfigurationInProgress
+      Id: g=4374ebd598687fdb52e4cb76da7bb154
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c8d166f327ccdffba6590d0bd2c605dd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1ConfigurationInProgress"
+    - Name: Ch1ConfigurationFault
+      Id: g=e1366b5dd8f444e803c773cbef63f4b5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ba12a646af8200b391cc27ecbd26e1df
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1ConfigurationFault"
+    - Name: Ch1KeyingFault
+      Id: g=d24a936edfb2b0e01f71ae0855f35097
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=846689bf30a7aab1fa2c57e22523df0c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1KeyingFault"
+    - Name: Ch1ShortCircuit
+      Id: g=0ad0c77513f8003e60b961b33ad404ee
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=5ea9624ebe5fbd4ecc5c2effd1e123de
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1ShortCircuit"
+    - Name: Ch1DataInvalid
+      Id: g=4b73650a8227c6be9e9d389f627c345c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fd0bcfd2ca8965c7be168da349ed6252
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1DataInvalid"
+    - Name: Ch1PowerFault
+      Id: g=620a17e30d72b8681897636ded6844fe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=7cd2e2f1313a48e51fc53742dbb60ec4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1PowerFault"
+    - Name: Ch1ClampAlarm
+      Id: g=42ec4bd5e191144ffce0b4581a1e9cab
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cfa5f24783397d59c6eb2a03b4e4c58b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1ClampAlarm"
+    - Name: Ch1NoIoSize
+      Id: g=286cf5d30dacca391c19e46f01116238
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=08a050a7299c1859d4174a2e314078b6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch1NoIoSize"
+    - Name: Ch2Fault
+      Id: g=7e8c20a6b7a472b93341f3ef315600c9
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cdc5131d1a076618c871ca25e56828f4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2Fault"
+    - Name: Ch2ConnectionFaulted
+      Id: g=f080dfcd357cb8fcdb43413beb51de65
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ab09837bb9eee65d7284feda4f61700a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2ConnectionFaulted"
+    - Name: Ch2ConfigurationInProgress
+      Id: g=47ed62084bd1946abf47d1b798a7a4c7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=1c479223f6e062b431c77ae1bb332324
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2ConfigurationInProgress"
+    - Name: Ch2ConfigurationFault
+      Id: g=2db80a6aa3f49e00ffcdf5cfd39ec405
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=541ad2f27687165cabce778d705b32db
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2ConfigurationFault"
+    - Name: Ch2KeyingFault
+      Id: g=fe4a86f1f93e72f2d7293749ab393986
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=93ec8ceb470ef9d30d56b5a5973f6dec
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2KeyingFault"
+    - Name: Ch2ShortCircuit
+      Id: g=732e310a462e4cc44048565f95f3b7b6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e0acb12d817bee4839ffece068d7afc2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2ShortCircuit"
+    - Name: Ch2DataInvalid
+      Id: g=60f2c95853b1134083bed27e1cafae6a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8b849d31d646775bb4e802110e8af071
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2DataInvalid"
+    - Name: Ch2PowerFault
+      Id: g=4535f509a25cb68a2e46bdb2986ba223
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=689c6499274a10c14d680b5f66175d09
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2PowerFault"
+    - Name: Ch2ClampAlarm
+      Id: g=66e152227bedf7124b8ff6ba636a8b6f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=2208159444054823cd59eccfc52a5299
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2ClampAlarm"
+    - Name: Ch2NoIoSize
+      Id: g=370ff9d8429f0ca68280024b6c83c511
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=bd96b3f36d3cd38c7266adadb19beaf8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch2NoIoSize"
+    - Name: Ch3Fault
+      Id: g=d5ee276eafcd960a39fe00de1dad8e76
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e69c6f80143b6f2745df0a39ab0c701d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3Fault"
+    - Name: Ch3ConnectionFaulted
+      Id: g=0414e4f0b83346784cf800873f662a08
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cb87dceda8a5a1e82c9c12650e001c85
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3ConnectionFaulted"
+    - Name: Ch3ConfigurationInProgress
+      Id: g=651eba74e7b0f6bbfedeebef3d326875
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b8aafca6047a4b7e864780d896cc4155
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3ConfigurationInProgress"
+    - Name: Ch3ConfigurationFault
+      Id: g=c87cbf7b1f1074ecbb5f5592a07cb984
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=1aca760b6ff9776867a646292ae84449
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3ConfigurationFault"
+    - Name: Ch3KeyingFault
+      Id: g=cc7db1c07abbb776a7f743342b0ad122
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=194183d8efcac3b63234fd648508ae99
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3KeyingFault"
+    - Name: Ch3ShortCircuit
+      Id: g=9793d6e260e80fe0e2398bede2a4d3b4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=d77b6874a5c9235914bc6975adebf8d8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3ShortCircuit"
+    - Name: Ch3DataInvalid
+      Id: g=929d10839cbe134afff0817a41ffc4d2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=1798d214e42381ead711314957cc8692
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3DataInvalid"
+    - Name: Ch3PowerFault
+      Id: g=617f093c4a19c8dbde6fd944b47fa8e1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=074ec9790db2cb3aa03c4b6dc6c9c6cc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3PowerFault"
+    - Name: Ch3ClampAlarm
+      Id: g=99f45450a2921d6e669c4e4ecec383b5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=008d70af5baad107fbfbb9a548b3019d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3ClampAlarm"
+    - Name: Ch3NoIoSize
+      Id: g=d5bd7d882a79764c4ffcfb547312d57d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4d7e607bece4641260b0ce2ae20b83ca
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch3NoIoSize"
+    - Name: Ch4Fault
+      Id: g=6e2bcd67eea13ec6d918ed83d3591669
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=aa6ec659ec335aaaa4114122227d9932
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4Fault"
+    - Name: Ch4ConnectionFaulted
+      Id: g=c20b7484beb854b3bc4b65436c325966
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=88bd4df6ed5080bf511be587cae86d09
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4ConnectionFaulted"
+    - Name: Ch4ConfigurationInProgress
+      Id: g=24d7f87141f009981a22be71988c2165
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=63b5e98010e8f9e4e77fae44fca71754
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4ConfigurationInProgress"
+    - Name: Ch4ConfigurationFault
+      Id: g=b8123da85aee559de1bedb21baaf8207
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cb1ae3471cc14348599e6a64ef7170c8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4ConfigurationFault"
+    - Name: Ch4KeyingFault
+      Id: g=77596e4cd74eb984cb0c2de051239cc4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=020bc82404589ba5e805ca04d913722f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4KeyingFault"
+    - Name: Ch4ShortCircuit
+      Id: g=a9198f74c0bb9cf86e91060032081c12
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=64c7c11c81194eaede5a7fa209df187b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4ShortCircuit"
+    - Name: Ch4DataInvalid
+      Id: g=8c0d202e9c2513d94e20fab443356977
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=de89f118c91f3289d1901643c9c51550
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4DataInvalid"
+    - Name: Ch4PowerFault
+      Id: g=74ef0dd0625405e65d1de1bdf4255e4f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=984f1183ab4a873fe96f0978f0cf40d9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4PowerFault"
+    - Name: Ch4ClampAlarm
+      Id: g=1855709811e8a526ea21d1656df298bb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=845bf260f7e09e80c4277932a6a28fd0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4ClampAlarm"
+    - Name: Ch4NoIoSize
+      Id: g=9784d8f6ca14069b0ba8f4ef948023fd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a021bae6a25cfa781995b07217a284d4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch4NoIoSize"
+    - Name: Ch5Fault
+      Id: g=63a4be43f077b418d83dc11416f4d3d8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e819da028f1ccee12b2c7517e4e6b8b4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5Fault"
+    - Name: Ch5ConnectionFaulted
+      Id: g=53cb2fe88daaf1d862e1fd95cb001d6d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e2c9bc06e5508f70aad1b98d1726606c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5ConnectionFaulted"
+    - Name: Ch5ConfigurationInProgress
+      Id: g=de8ec752d31db405f4546767f7e31ef5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=841df5c58f8ccb8f76a4be898d97481f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5ConfigurationInProgress"
+    - Name: Ch5ConfigurationFault
+      Id: g=5f42d280c108aab09479e7e9e6c0194d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c944a718634d1ae220168b2a42df915a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5ConfigurationFault"
+    - Name: Ch5KeyingFault
+      Id: g=d3070ecbde99e0f4e4b9b34ea2899794
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=aa30d550f4d6da9ed883611a6b0abd54
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5KeyingFault"
+    - Name: Ch5ShortCircuit
+      Id: g=d8ea48a082e2f9f5ef0bca4798290972
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=381784d59fb369e7378b0c53be0f601d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5ShortCircuit"
+    - Name: Ch5DataInvalid
+      Id: g=215a4e4a81f8462a1ed916860f51cf9c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fa1a689a204c80d31a9a73f5505212ef
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5DataInvalid"
+    - Name: Ch5PowerFault
+      Id: g=f623f521f64c095e7971db242f9c0b2a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=04c7a7c4681003a9939bd58bb8589b22
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5PowerFault"
+    - Name: Ch5ClampAlarm
+      Id: g=fdad8e8a31949cc11131bc116a6d2163
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=7603794c59eaef21d74b72adbff9ce5b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5ClampAlarm"
+    - Name: Ch5NoIoSize
+      Id: g=adf962b672dbc57e89c2384c782625e0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=1bef4365849b7f7e2c97d9d0fb6fefd1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch5NoIoSize"
+    - Name: Ch6Fault
+      Id: g=496294d1a0d811e88129f75b81760fbd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=de53df324d256df0d86b0b3907ebaef1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6Fault"
+    - Name: Ch6ConnectionFaulted
+      Id: g=e063e386ef96043f8ab9e38953c3cfd5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b3932bac36540fe014085c9682e95ec6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6ConnectionFaulted"
+    - Name: Ch6ConfigurationInProgress
+      Id: g=7414baea88f43d614c2d68aa13c0d2a1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=3bb8eab8da458c3519ca602cd08486b9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6ConfigurationInProgress"
+    - Name: Ch6ConfigurationFault
+      Id: g=ebf678c83bd1703f7255f33d9aa9af71
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a712b0f87d69256a8033d49a567b9963
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6ConfigurationFault"
+    - Name: Ch6KeyingFault
+      Id: g=330a3171360c35888f88b8e4cd215549
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=62275a45f5cdd4bb0de373accc1a346b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6KeyingFault"
+    - Name: Ch6ShortCircuit
+      Id: g=a1ffaed378e079c6a92d6b9a00d7507c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=36aed2514a607696fe7ce9d8d4b0e449
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6ShortCircuit"
+    - Name: Ch6DataInvalid
+      Id: g=9703539722071d658e32f678b30614ab
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e7d6487ae9804f20159f14e85fc133d1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6DataInvalid"
+    - Name: Ch6PowerFault
+      Id: g=15b76eee1ae06d37c8d4151bfa8397f0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=f982dd8ebfb45d428865713598a2d9ba
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6PowerFault"
+    - Name: Ch6ClampAlarm
+      Id: g=2f0840ec7799129a7492ad74bdca38a0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4c37a6a8b4ce5919d63c83cc2d252ea0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6ClampAlarm"
+    - Name: Ch6NoIoSize
+      Id: g=f3bf7f2a70a1936792493db32ac0eabe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=9a1e7a7cdf499239f697370ac86819e4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch6NoIoSize"
+    - Name: Ch7Fault
+      Id: g=180d191f3ef8c26f8c52d8ae0181a5e1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8b0590918a305e6aa8370f9da2b59ad0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7Fault"
+    - Name: Ch7ConnectionFaulted
+      Id: g=7c43a2b6091c9988acc7dd74cce31963
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=241f3b47c920011ab06ea830bd755866
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7ConnectionFaulted"
+    - Name: Ch7ConfigurationInProgress
+      Id: g=136269e0b57ef5defb867f8880798417
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c56e27c9e05aff9cbda7e0d3a9846074
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7ConfigurationInProgress"
+    - Name: Ch7ConfigurationFault
+      Id: g=59fc8e53c722f7ad3145b105f9a702a2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=27e1da031e137c1c8d0e39cbb57de07a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7ConfigurationFault"
+    - Name: Ch7KeyingFault
+      Id: g=664eeae0cc59ed7566b919ba974fdb08
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8cfd51401976d61ddea90549ff6bd82e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7KeyingFault"
+    - Name: Ch7ShortCircuit
+      Id: g=327cf7ddb1e7160e0db58397116f4d75
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fa10ddab7c7c3470ce0b7b1677856569
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7ShortCircuit"
+    - Name: Ch7DataInvalid
+      Id: g=3aa84eb8831837e42dc0974cc9be1812
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=949031c2f2a4ed9da07f8380a3cb9ab9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7DataInvalid"
+    - Name: Ch7PowerFault
+      Id: g=c500ada7c3424528d510bfc5cb6b08d8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=def65386191ca42b132197d81e4ae269
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7PowerFault"
+    - Name: Ch7ClampAlarm
+      Id: g=d0a8c7610c6eb364437415b07916f8ba
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a4c75e4c078494b9e54418e55fa29b18
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7ClampAlarm"
+    - Name: Ch7NoIoSize
+      Id: g=45f757273372dbbdba76184e84687b02
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=0b321da4bcbcab63fdad619b8175f6e5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Status.Ch7NoIoSize"
+  - Name: Ch0DiagEvent
+    Id: g=9fa3c4bbb88fb881a41b6b5451dce18d
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=0bd56e15186d334afff7c63282db1fed
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=f8911e476b66a86720bb5da7516cd9a0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=0804978c964cf1a62ac71c283cf40d05
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=06ff19878adac602facddaabc0d3d9ff
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=fec346e377f0818343d1dcada3ad05af
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=08c59ae1f680b1e9f8248a1c2d1c0bb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=7ef763b7724796e1e10851f308a74463
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cb3d86bea75768574d9974d5e31b3c9b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=a95e1e69b03f55c82150aed7d9e7bc18
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b7f510b736be14a3f6d0b04871c3c688
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Source_2"
+    - Name: Location
+      Id: g=0b97b20bdc8ca3c6338931970139746a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=9174ea32670a83a2e64a2006ad586aaa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Location"
+    - Name: Type_0
+      Id: g=3cf2e0c0abd3a7a20b34ed8dc5cd8c03
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=75390e2b7058cca4e0c952da927d76a6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=416d2c8712a7c1676f98d8b831671ffd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=471d8c146afaaf7e94b990875477142b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=0775c5947e4aadd5e605f15cfc662195
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=2d5eeaa23279dfd4c7fbd4e57dc8b3bd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=abee3244342433e3ed03ca8afe2b1408
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c91cf50b48fb39ca888b783e635947eb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=d1cebc0295eae68a36197b89563d5c0f
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=d7afcada2cddec30d483d817d5486071
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=5f55563edd5bbcac5b7c5a5409a2bd94
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=f5a2db7b58a0f6d77a61edb3c5f6bae7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch0DiagEvent.Timestamp"
+  - Name: Ch1DiagEvent
+    Id: g=67d3880118362ee04de4afaebf716221
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=331072d8589031d0ba60932acf723576
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=fd9f41b904a0e53240e75e6e0be2aaf3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=6fb1725e43b92101f91a16b7c7ca8216
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=bd93436ce4cb09709ffa5faee60d5255
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=028f0334e9472502312646791ec9a510
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e6481b642865f4776d306cb428426f93
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=682fe947449ad680c380f4f47fcbbf64
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ebd8057e97b5133db84670476c78cea6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=b5b71e8e61e6333d432eb27c1faa8903
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fd7af767a716e52fbf0cc38acac55224
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Source_2"
+    - Name: Location
+      Id: g=fd3c2ced98c1b4e6f7efdc82e063c92e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=887845ed3a840daef1893659ec1902f9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Location"
+    - Name: Type_0
+      Id: g=d00b40866b4e77878076905ba0895fab
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=16156a21b4b17c1a56ef1c17f44f8bb2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=ab4d185b0a88ce655e7465b80b331e0e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=62d7e494d9be15e088d7367019cd8251
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=f609fce77f483ac6c511993d3303ab5a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=85f3841db814eaede4416b891ea3b62b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=65c6ba6fe167973a7213bf15dfaa64ae
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=58116ecb8f4bf9ab7c41e1e5427a05f8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=bd77cd3af37258e0f3c3b3239436af09
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=d39165f9dae96bdb5fe034318d3a2c09
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=ba1da14ec0452170cd89e997c73fdb16
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=375d86645c7908e05385d04a0c9858f7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch1DiagEvent.Timestamp"
+  - Name: Ch2DiagEvent
+    Id: g=c0203a931f984182fd230fc02223b0f0
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=39df69e7817f61c27d2b82012285a4fb
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=b281a77dc818f003762a7b725bdbfd3f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=775d3a622dc029d16648b86631b28c6e
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=3f23780faf8525b49c156489426948e2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=1d0420867a2f5120bfaac3a20872cd74
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c4c2ba94e9701717381503b9cbbc88ff
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=80b043afd10273187a9f7d2cc31e6977
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a74ad4880346bfda2954203f4e40546c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=89cd526e84704b3bbcbd126c7c2d29ba
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=603fc51f1f4fed4c84ca133d354cb965
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Source_2"
+    - Name: Location
+      Id: g=51a52d5aadd6940c7ac5e8664d5e0986
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8207f9fe6998f99d69d7e34ef27f3556
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Location"
+    - Name: Type_0
+      Id: g=1ff4323727691f88a592c7c8d4fd57b1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=34e2876f0ecb5c7fb94d0fbd791c15f3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=388b17459d21e3215838d49a0b1abbe0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b076f74c8b3f320e42e9e6925d52a0d1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=e0532e39325ee65f65f9b106b28015a4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c7277990b614d69ee829663a26db4ee0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=de024d3efa0d8622d52cf643e9dcbbd4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a2b453027a5b519087e38a13021ffbe3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=3edb99479180d5d8115b71c72b9dc383
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=e303ca5ede8df16bfa3f520347466d4d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=9d4083a7b9996becc55e78ec20572888
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=995605dcdb72226ba9a41148760ccede
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch2DiagEvent.Timestamp"
+  - Name: Ch3DiagEvent
+    Id: g=0d8231003ff6f838083d5e622dc7382d
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=c3efae3d0158a1241441f20494e08667
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=3b526cba9052173f8f173b9154034531
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=0c35fd6883e1f35969f4426405d53544
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=f6efad3051615add0592e9c9f78c8d1a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=c781b29ce41af08997e6ce55baad8978
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=033aaca0ea1bb3b875f3500b0e463ce8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=72b186b209bd0ac617b4989fd9c2c6e1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=94a35d4c49c2ea66ff038b0b693124e9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=7cfb236ca9566eb5aa9faba370c736dc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=2910113c552b3cb596c30506b1a84031
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Source_2"
+    - Name: Location
+      Id: g=43582ac7965ce5112f5f3b59367c0664
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a72d1a8705e18047e1bfa0dc1f9b1fc4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Location"
+    - Name: Type_0
+      Id: g=4edf413a8ca2808b802e0599fe3a756c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=3b354f234d4d900d7da48a7a291ad283
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=eb52efa658b94ee45eff1ec37b6863d5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b64380253429b9b1770da99de8ea48c1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=c6df11efc3686ecb42399cfbba03ac37
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b1d2f82468189bb4523d23ab6a97e354
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=f148ce9e9a2415b3b62d04d720910dd6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=a1c07f516c22dc4af42a0b82efaacdf9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=ac9975b977c824f02c6bbc864da7806e
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=6af861df8baf6d19e3011e8c21508ded
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=d366214f5572308f007d1f7cf5e570d4
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=fabc3ad8c9c9c979fca9bb249e61cd3c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch3DiagEvent.Timestamp"
+  - Name: Ch4DiagEvent
+    Id: g=a8abd0094b03ce146adc59d3d960e9c1
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=18a7a451a912bbaddf6f686914e42797
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=663c0e836d5cb0fba4b39b3c88edd700
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=c22493b4a13405904366351db89de7e4
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=3cda7cbbdf76c30836d87fe00cc306e8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=76f3d8d3efbab7684e2dee11245df1d6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=059050ee6994f3bc9d37dd8f9084253d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=05be3a0eda8cc260c2b7a26b7b6b2fda
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b07a79d65eb84321e001970e86d4ad07
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=85ca641315bc3ad5009946eda024e62b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=0f95c7203d12a753af4bccd86470680c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Source_2"
+    - Name: Location
+      Id: g=1074464196d6d3d197f2daabca8d568d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c6a8d87ec6ffd153a4aca03253e65d42
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Location"
+    - Name: Type_0
+      Id: g=29fb0c5f9541351843165cea2a79f7f8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=f61d2845e5b244e20259205db94e4048
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=7db106b09b043245cfdf485a0fdf994e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=0c32080fbf117b2d449d2619580408c7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=49c13fcc0f0d9c58a90f6b489caa904b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=98c9e29c993340e0453d74add4d42bd7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=66b5d8c87a24f3a9620482f4bc218c8a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c983ad03ffc024b34bfc72fc81332a1f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=b4c3299f7c9a02df147ed21cad1ebf65
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=bfb046cb10d203875b5578f95973ba4a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=85e5e867123b66e428d1b73208bbe917
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=94ac46efbc458d668ad1124c55bacfe4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch4DiagEvent.Timestamp"
+  - Name: Ch5DiagEvent
+    Id: g=7782fdd7b06d011c81cecf68db0c6a53
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=7c793da4ecfefc52de0418a722b5fd60
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=c17659af2bb88cf9ee9f5ada57190417
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=11c9f64287f539c1d186d5b9bf98e1ec
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=f96045e95ca51daaed3c796d65f8cabe
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=f9a69d723c08fd55ee562e3be8b02318
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=78aa7374940e09fbefcf3d39b23654a3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=1ef975ce0c13b4a11c8a938a62942668
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=98cc1d9c90e1ca53a850702e9cd780f7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=e82db7fd991a32b5ec39c9c49339d7f4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=289ed3bffe2427a225a04a3e08a2544a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Source_2"
+    - Name: Location
+      Id: g=193c1f428a4701f7f4434923d0ee29cc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=d7a1a65bd59a5c610fb79eb9f47a9ecd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Location"
+    - Name: Type_0
+      Id: g=606a0eb41080ea84d77c5156dbe3388a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=f232eefe32c24ce772e73117247e13e6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=5c842e248127baffceb981ecd7ffa72e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=1b1efaead74e60323388aece42e72f20
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=b3bf5cac848c26e1ecb0400221713953
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=dc52a2b294e1a608b35c3ad643adc09e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=5cf4327cdac8a4877288078285d24384
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=75d04070decb9230e08ed4de38a0f7ae
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=076dc88b1ac574c7cc39aec401bb1a5f
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=c01529c90067f82a1e99757111196144
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=f949c605a403b75c4d72cccede3aa80f
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=1ae02fac46fb8e64ef5f1e57a5932fb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch5DiagEvent.Timestamp"
+  - Name: Ch6DiagEvent
+    Id: g=fe3af23980396acc01da60b9206d898b
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=801474902377d0f1476757511bd2acb4
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=4fb76b72838148be276d6ac280307c8f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=3c23e76985daa4c7813b3be66e97c576
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=035f7822f508090c4df03bb46435c149
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=fcc07e920ee186cc0e955fcab8d5b79e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=87ebcbc4810c6e7b757fe7de4beadda9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=9be173de75235e7ae92e8d57ecb6b829
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=b93b9a61b0d06f9f819ced5dd302cbc3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=27865e926b6ffe8f035f9d346a15177b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=829414d862ae1df1984079ae634aecb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Source_2"
+    - Name: Location
+      Id: g=4ae6859a596ea4bd995fe2df31f4a654
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=83743346fe3555280178c766719740b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Location"
+    - Name: Type_0
+      Id: g=29a9f4dc4af21fd56496aa5d6b2e65f7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=337152cf40e1a958b2d04f46b2403fd9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=15a40464ec8dc667d774d043cd9b461a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fb815a5738321052ebe8370c3acfae3c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=e9beb8f1c0d22b572a63da0c156b901d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8cfc432ea6a4f63c1908640c4e0816dd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=62fb617df9aa341408ab4f93e3aeea7f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=3550ce64dccb05070a25ff3e1fa46d79
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=add6391a59959e4d2b8a3afeae917e55
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=30abd4f32e832fd7f8e7ba8498a85ae0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=4e8c6ba8f0de299d0819d3a035b18c12
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=bfe98465f44cd2a4ea8ec04b3ad38521
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch6DiagEvent.Timestamp"
+  - Name: Ch7DiagEvent
+    Id: g=0c0450a39b91f323355ef5161074892d
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "b72c2f73a099533f26e162811a285e7f",
+       "Namespace": 7
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Id: g=b1c92e3a46aded200cec67a5df8997f5
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=8f38104f7c7780d2c11a8669d0199d43
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Id: g=6433e89bca35efb6ada52aa5c08af911
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=3a7f381222ddbbe1640e7a0af477c7ef
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Qualifier"
+    - Name: Source_0
+      Id: g=355f4e9c4526c40538bb7ba34ca9a8ee
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=71d0b884d20ec52532920167a877778c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Source_0"
+    - Name: Source_1
+      Id: g=d8b8cf48daa861cb1592a6d5f894cf75
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=f252a200b6f7fea9fe0df63b4c14f591
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Source_1"
+    - Name: Source_2
+      Id: g=269eabdc4ed2263537f2cf1cb3b6b88b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4102f84b6c8e6f3c7ef3c903f23c2353
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Source_2"
+    - Name: Location
+      Id: g=6d40fea01b52239b48b19a1a50fafebc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=9b77eed3662b344d515e2b64046b3b5c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Location"
+    - Name: Type_0
+      Id: g=ce5121124f9fb50b50e2257522543bfd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=06e9fdc974cb084e50eb0872600cafec
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Type_0"
+    - Name: Type_1
+      Id: g=fd024cc02b686260f1d925a3422a04f8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=80bf178b662c7749ec7a47233555f767
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Type_1"
+    - Name: Mode_0
+      Id: g=f4a91a201e071bddac7db8ecd095d2ac
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=cc1e48872521146cb4dfb529c0dc58b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Mode_0"
+    - Name: Mode_1
+      Id: g=c89d045d3c1f8a0ff0a1af48f4168948
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=6da064b8c571283f840ba9aeed27af30
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Mode_1"
+    - Name: Code
+      Id: g=3e817935bd2f9429ba5db3a0b7887771
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=a9867acab3edd0ea16b7c5ff5d887e61
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Code"
+    - Name: Timestamp
+      Id: g=1608aeb48d11eaa6e679d794600f4961
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Id: g=861fd5b9284030a65fa543b0ff3576da
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stacklight_Inp_I.Ch7DiagEvent.Timestamp"
+  - Name: LocalClockOffset
+    Id: g=da1d4c3b201608669942abde7ec0cdf8
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=ca07ccbf6bb7f1f7c30610207c59ca6c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.LocalClockOffset"
+  - Name: OffsetTimestamp
+    Id: g=5688c2f17af0eeb20a2010d99c1565ee
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=08d2df399fd11bcb7da1885102ee6bee
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.OffsetTimestamp"
+  - Name: GrandmasterClockId
+    Id: g=dea266af4f953cc93542986ecce33281
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Value: [0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=3d6310f2832434df1a036e9ce94528ac
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.GrandmasterClockId"
+  - Name: Ch0Timestamp
+    Id: g=249be6cab5d59e42c72e013ab72d7f37
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=121c3d59630e5afe458f21180606326c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch0Timestamp"
+  - Name: Ch1Timestamp
+    Id: g=387a269830409d08ea0549be2c311ed9
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=159e1f6a971e5bdd96b7d3ece69db428
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch1Timestamp"
+  - Name: Ch2Timestamp
+    Id: g=758debcf81277449640d31121ca2fbdf
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=2cabac59e9ea898344eda90f2c874c00
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch2Timestamp"
+  - Name: Ch3Timestamp
+    Id: g=2e47bb6d5440322e4e49fdca2be55087
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=cfecba6e7d0dfcb46d08600a4f45b3d7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch3Timestamp"
+  - Name: Ch4Timestamp
+    Id: g=c88ab617c9d8eaf8786bd07c9179a5a5
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=b35653509ed0ccffdde3a1a32b11dc8c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch4Timestamp"
+  - Name: Ch5Timestamp
+    Id: g=cb9669614876c6e1db9564a48e490e2d
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=8a91eee62f4e92b1276bde7307b17deb
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch5Timestamp"
+  - Name: Ch6Timestamp
+    Id: g=96e0e9ea7476f45740c1a1ef26d03b11
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=fa06e8694f8e6e34fbf8e46a2283d20a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch6Timestamp"
+  - Name: Ch7Timestamp
+    Id: g=535592daa2f4e0a7efafdbf53ba8eef2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=c2b969f9b58436ed9b30f01f6d07a9fc
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.Ch7Timestamp"
+  - Name: SynchedToMaster
+    Id: g=71c242157ecddd2dda615665f0109ae2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8a9f8c03177c51fcc94facd707815002
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.SynchedToMaster"
+  - Name: ChClassBVoltage
+    Id: g=fcac176cd4789ac71b326a963ea9466b
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=d4b87ea87f498adb24f170bce660eb98
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.ChClassBVoltage"
+  - Name: ChClassAVoltage
+    Id: g=4ffadd4dbc94bc0ffe153104684dba61
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=b54b724e3aa54d06636c3f380a76ef50
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.ChClassAVoltage"
+  - Name: ChDeviceTemperature
+    Id: g=b3de48f6d5b380c25dd0bd7cc85712ea
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=5663661ed4c6d63ec752982e8994618a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.ChDeviceTemperature"
+  - Name: ChCircuitStatus
+    Id: g=80b77b696533be209048c94b4333d60f
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=fbf47e026e4da8c78557433a9b04e8ce
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.ChCircuitStatus"
+  - Name: ChAlarmStatus
+    Id: g=7c2add4e590f98f6ebca67688b5da371
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=836ddfa056054f65f9e7fe9a0ba21460
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stacklight_Inp_I.ChAlarmStatus"

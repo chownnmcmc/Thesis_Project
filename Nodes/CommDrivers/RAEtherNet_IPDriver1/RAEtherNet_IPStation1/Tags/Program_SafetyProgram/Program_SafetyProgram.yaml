@@ -1,0 +1,187 @@
+Name: 'Program:SafetyProgram'
+Id: g=a4715c87d52d9e56545aeb380c0fdeb6
+Type: FolderType
+Children:
+- Name: SafetyMat_SMAT
+  Id: g=5dd938ecb91155cc2600f67bb476f1a5
+  Type: SAFETY_MAT
+  DataType: SAFETY_MAT
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3bc11e4c388f6094d86a5707f787b3dd",
+     "Namespace": 7
+    },
+    "Body": {
+     "EnableIn": false,
+     "RestartType": false,
+     "ChannelA": false,
+     "ChannelB": false,
+     "InputStatus": false,
+     "Reset": false,
+     "ShortCircuitDetectDelayTime": 0,
+     "EnableOut": false,
+     "O1": false,
+     "SRCA": false,
+     "SRCB": false,
+     "FP": false,
+     "FaultCode": 0,
+     "DiagnosticCode": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Id: g=83a7442e6d25b762d34cdca9679bbd0c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3f9a6d75aa93b8f7cac84e461bd22f47
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.EnableIn"
+  - Name: RestartType
+    Id: g=9cee514e23adad53ed1b4e0af4056a52
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5e2828fc05210e201cb0e3987d9e196b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.RestartType"
+  - Name: ChannelA
+    Id: g=339fe82cfa35cae8842cd258495fe0c8
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=da7d09ed297cf057042ab1e86100ba34
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.ChannelA"
+  - Name: ChannelB
+    Id: g=2eb25d8f13f56c44ba1f92091eeb4ac4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0c766b1aec5bcf0ac72513a2c3c7512b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.ChannelB"
+  - Name: InputStatus
+    Id: g=73ebe105892f6c2fb858195c9a2f086b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=b1555a2952187096309e5cea92ef47e2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.InputStatus"
+  - Name: Reset
+    Id: g=6b595dd3d4757914f63e813aa86bed9a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=640e5cefa6e6947b3564677f89de1578
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.Reset"
+  - Name: ShortCircuitDetectDelayTime
+    Id: g=c1d09f0ea44f64ff4ab96e1b668a8334
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=123d764fbb9d1afa351bfe7ce3df6be4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.ShortCircuitDetectDelayTime"
+  - Name: EnableOut
+    Id: g=951e39f9af7ea71919c7d33eaaa3370c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=4e71189d909c75c66d7f30eb654dbda4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.EnableOut"
+  - Name: O1
+    Id: g=3e7a4bd430280ae4116c150cde744599
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9dcd35860330dbda22a38fb9d1864312
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.O1"
+  - Name: SRCA
+    Id: g=c30e14fe19b3d3baaa9feccf3dab213f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=024e3ad37c3a7f843c3e0431cff75b95
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.SRCA"
+  - Name: SRCB
+    Id: g=1787a1b7bafa364b92793b2200f559be
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=65e6f102f71a934d017de8f384fe8926
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.SRCB"
+  - Name: FP
+    Id: g=f5b56d9c7f1db748422d38d156bfebcf
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=356a4932474203fb44ee2f1a33c44624
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.FP"
+  - Name: FaultCode
+    Id: g=69ca936fbbfac8637b824ad1aa6273f1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=0dbb078b78c049149fe089576df72dfa
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.FaultCode"
+  - Name: DiagnosticCode
+    Id: g=06e78f6001ddf42ac5ba81fd29d9042b
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=87e3f46f5656124e107513529ce46c24
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.SafetyMat_SMAT.DiagnosticCode"

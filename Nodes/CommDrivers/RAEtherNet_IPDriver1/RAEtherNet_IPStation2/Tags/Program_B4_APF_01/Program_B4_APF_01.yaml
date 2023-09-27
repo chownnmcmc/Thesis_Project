@@ -1,0 +1,958 @@
+Name: 'Program:B4_APF_01'
+Id: g=bb8a1177c551f80137cc47b1971ae1b6
+Type: FolderType
+Children:
+- Name: APF
+  Id: g=01efc2b231eb7b487a196aac0b017c38
+  Type: APF
+  DataType: APF
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "5fea5116f1f6cd095b280b2f2d5d53db",
+     "Namespace": 7
+    },
+    "Body": {
+     "NetStatus": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e7565a22d601f7d5477bb9f0ce02f09c",
+       "Namespace": 7
+      },
+      "Body": {
+       "Name": "",
+       "IPAddress": "",
+       "EntryStatus": 0
+      }
+     },
+     "Ready": false,
+     "Active": false,
+     "AtReference": false,
+     "Direction": false,
+     "Faulted": false,
+     "SafetyStatus": false,
+     "DI0": false,
+     "DI1": false,
+     "DI2": false,
+     "DI3": false,
+     "DIO0": false,
+     "DIO1": false,
+     "SI0": false,
+     "SI1": false,
+     "SI2": false,
+     "SI3": false,
+     "SO": false,
+     "Velocity": 0.0,
+     "OutputFrequency": 0.0,
+     "OutputVoltage": 0.0,
+     "OutputCurrent": 0.0,
+     "OutputPower": 0.0
+    }
+   }
+  Children:
+  - Name: NetStatus
+    Id: g=66e7dab8558ca786e38c5675557837bb
+    Type: NetStatus
+    DataType: NetStatus
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e7565a22d601f7d5477bb9f0ce02f09c",
+       "Namespace": 7
+      },
+      "Body": {
+       "Name": "",
+       "IPAddress": "",
+       "EntryStatus": 0
+      }
+     }
+    Children:
+    - Name: Name
+      Id: g=97fdc6d640e9b11b787846744bb044cc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Id: g=b6185763dea1dea7ee14edf50a26a702
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:B4_APF_01.APF.NetStatus.Name"
+    - Name: IPAddress
+      Id: g=b54882e3e4814e8ea479b25b78636994
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Id: g=d1af831ca2d4cb0cce4c9967278ade62
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:B4_APF_01.APF.NetStatus.IPAddress"
+    - Name: EntryStatus
+      Id: g=0a671651cdb740d737f3813f0e700541
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=717a0ee198548208b61a418d64926210
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:B4_APF_01.APF.NetStatus.EntryStatus"
+  - Name: Ready
+    Id: g=44333dca44ab3b498aff4d01af464bd3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=7a002d43215f6b3f2d7ebe37cd78477a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.Ready"
+  - Name: Active
+    Id: g=14775434d826d03a0737e434ae75b25a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9ca5feb2956f3bcc038836d9efb88bb7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.Active"
+  - Name: AtReference
+    Id: g=90242b17003a85b6a76bae607bece8ed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c713b1db6f08759de141cde694404b0c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.AtReference"
+  - Name: Direction
+    Id: g=49d44cfa9845ec868d150b72f57f08ca
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=db9ec3fa1bcc94ca5bb5a3afc343b487
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.Direction"
+  - Name: Faulted
+    Id: g=480b86a9fea46a170601f47363a7d005
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5c17b2399af99052bffa224fac53391b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.Faulted"
+  - Name: SafetyStatus
+    Id: g=ad2d23dfddda148e51f0172cf32f1a23
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=23d497829a8c6dd4f4c44b1bf3d6d15c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SafetyStatus"
+  - Name: DI0
+    Id: g=6e8fb7d703e89062650fda5a4102e9ca
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=86da5bbea3365aa9111c3cb35b7b7185
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DI0"
+  - Name: DI1
+    Id: g=1182c32eb55985cd6af3d01c3c87c885
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c0421aa9fea75a1477a22f87027078b4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DI1"
+  - Name: DI2
+    Id: g=ca7daa7d3bd4451c11406f649ba96390
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ea52acc308cf62c0eef55754a0dd94be
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DI2"
+  - Name: DI3
+    Id: g=ac4fbd83358ed0e13e53459c213bfb90
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=a29081aabadfa803e5059f9bf2983c40
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DI3"
+  - Name: DIO0
+    Id: g=93557d62ca2d4ee1ab5996d5adcbefe9
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0c222899b9a383e51ff88178fadb5564
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DIO0"
+  - Name: DIO1
+    Id: g=bf91ceb6e793356a44b66e0d81f18c00
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=862d213fa71fa281e98f74b9998905ce
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.DIO1"
+  - Name: SI0
+    Id: g=f2bc7cb5d7aca3d005710aa5ff2f189d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=95dae83b3babe349e46ccff8c847a5d1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SI0"
+  - Name: SI1
+    Id: g=97f7ec535b49b8f339b8038d8de4b772
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8802dfee4c3c71323480730b0a4d92c1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SI1"
+  - Name: SI2
+    Id: g=36b5f928d25e517546de2a1fc8e707be
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=93b17d8f19dbcc8c4fafb8364ba662d9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SI2"
+  - Name: SI3
+    Id: g=68348e88f68e5b7f601bd788280c5567
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=123389eaa9fa77ea135a65af6e6b9146
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SI3"
+  - Name: SO
+    Id: g=2439b2c3efb919beb183a7f2634c9ca3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=4d5922309ec0a8cdc457224d3d8eeea7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.SO"
+  - Name: Velocity
+    Id: g=e14f6092f2715ebaaf68b99eecd6b633
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=8394f0e66057f660e26834aa0282b976
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.Velocity"
+  - Name: OutputFrequency
+    Id: g=4ec2c177313a79e43bf08575d216ff07
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=02a844e1878a491b48d4195988c68d23
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.OutputFrequency"
+  - Name: OutputVoltage
+    Id: g=c060db09249250f789a7b6341cf60bea
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0acf65665fc10191fde4896655977a77
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.OutputVoltage"
+  - Name: OutputCurrent
+    Id: g=559012749a172746f0ca0a903e4a290c
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=6c55c1bc68839d67c7585b7119c94e09
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.OutputCurrent"
+  - Name: OutputPower
+    Id: g=22929e3f5d2271666e8a733dbb715915
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=56538601c4029f4360f7f8770a3a7cb2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF.OutputPower"
+- Name: APF_AddrGet
+  Id: g=be96a03f361247be27a099f222de40ca
+  Type: MESSAGE
+  DataType: MESSAGE
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "050ab4c6f45d7944e9c03808e6727542",
+     "Namespace": 7
+    },
+    "Body": {
+     "Flags": 0,
+     "EW": false,
+     "ER": false,
+     "DN": false,
+     "ST": false,
+     "EN": false,
+     "TO": false,
+     "EN_CC": false,
+     "ERR": 0,
+     "EXERR": 0,
+     "ERR_SRC": 0,
+     "DN_LEN": 0,
+     "REQ_LEN": 0,
+     "DestinationLink": 0,
+     "DestinationNode": 0,
+     "SourceLink": 0,
+     "Class": 0,
+     "Attribute": 0,
+     "Instance": 0,
+     "LocalIndex": 0,
+     "Channel": 0,
+     "Rack": 0,
+     "Group": 0,
+     "Slot": 0,
+     "Path": "",
+     "RemoteIndex": 0,
+     "RemoteElement": "",
+     "UnconnectedTimeout": 0,
+     "ConnectionRate": 0,
+     "TimeoutMultiplier": 0
+    }
+   }
+  Children:
+  - Name: Flags
+    Id: g=cee91f727ee37702629fb535426f3748
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=7cf06dc5a10afd43aa6b2be46da37f35
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Flags"
+  - Name: EW
+    Id: g=050b13a6e0fdf5c367a8ea98a4dda4d1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=554d4ea63950ac42fc2e448c01cf3e16
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.EW"
+  - Name: ER
+    Id: g=0d3f816e4682e1bde3a9c2539d399c61
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=1f8f06ed87fcbad76edabcf98748280b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.ER"
+  - Name: DN
+    Id: g=5b4a6a0301565b147f5700e3778a7dba
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=a47684f0b7a441ef7c87f51d222f99dc
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.DN"
+  - Name: ST
+    Id: g=b7165eb242951de2ff2fc885d1451c01
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fd3c5ca9fafdeba8e894553bed40a4de
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.ST"
+  - Name: EN
+    Id: g=72fde5f10e4ae1155355fe1e566e329b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c9c61db5d50ead09d8168f452c2aabca
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.EN"
+  - Name: TO
+    Id: g=a79bf12c19db3a8ff76eda1f520416f9
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=641fbbbb7d3515d9cafb5e1ac0e765c9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.TO"
+  - Name: EN_CC
+    Id: g=2548df9b2254b364759f151780bfb648
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3f58674f12ee63d0942e567f6fc9eec8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.EN_CC"
+  - Name: ERR
+    Id: g=f47b8afde2b11d69d72cccf395f1a4f6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=2539b16b2d671aa8f5e5d66d2795a888
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.ERR"
+  - Name: EXERR
+    Id: g=a8647640fcc5d62f3332b14ed6380f30
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=c6de2bc5afb75793cfe639a89bd40603
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.EXERR"
+  - Name: ERR_SRC
+    Id: g=69ea172f65672f044815f6831f1d30d0
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=8e8ea21983fee15d6f8858648d8afb6e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.ERR_SRC"
+  - Name: DN_LEN
+    Id: g=f8469758369d6ba9f7e365a1fc2704b8
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=e2bb5e7e44954197159cd0e6d736ccfd
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.DN_LEN"
+  - Name: REQ_LEN
+    Id: g=8e87e1cba0bd057fbb8c40d0d297f9af
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=1a4ecd0e2261d398f04b261ddb3a9b1b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.REQ_LEN"
+  - Name: DestinationLink
+    Id: g=3e3b3003f718d9825415aa1949a39b2b
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=3155edf2937c954642205683fae787b4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.DestinationLink"
+  - Name: DestinationNode
+    Id: g=b57ab2b2c30e7245470eacbe2e1efd28
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=0b4c109f3c1fcb1e1785870f1f364306
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.DestinationNode"
+  - Name: SourceLink
+    Id: g=1adeb2bbea2a2c7e31921765e19a51c6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=51394f370a08c4a386701302f6f0143f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.SourceLink"
+  - Name: Class
+    Id: g=47e6c79710e894aa7fb55f5790715c1a
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=e4bb7fb1fa469e0d065ec962b03e15c2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Class"
+  - Name: Attribute
+    Id: g=6441d0bc4e365cfe019ede0c02f83b3f
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=c64f5361b640bc28de4f0bb503638b39
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Attribute"
+  - Name: Instance
+    Id: g=8b669c760ee1a5fe6984cf252230f9a8
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=2661970c86f4f22f19260fbf80f15d16
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Instance"
+  - Name: LocalIndex
+    Id: g=dc61056e0714268da7493338c994dcd9
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=d8eb906754f030dd45540cd49388b9c7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.LocalIndex"
+  - Name: Channel
+    Id: g=bec208d6ebd55bcdc4544f7629153028
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=e698806bbbca049d7821756c38e75aee
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Channel"
+  - Name: Rack
+    Id: g=3d0228003e6ca8160cdfea2751682d4d
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=124e58a530528f5174fe8e37e1e92a97
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Rack"
+  - Name: Group
+    Id: g=c0b48256aa8ad8b7fa01a0540c1e88e0
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=5238e8fb2fce7c06ab704abd57a408e1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Group"
+  - Name: Slot
+    Id: g=367277071a201eb21ce0e1d2281aafae
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=131ad4d6ff10f1ce994740aff64b6609
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Slot"
+  - Name: Path
+    Id: g=afd0ffcae4546ea7559708eb934d55fd
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Id: g=89da1302e8ea528b2ad18341e611d423
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.Path"
+  - Name: RemoteIndex
+    Id: g=85d53ce74caa6d8115ba728f63230759
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=7377cdcbc28df560b6e1d0a351a85355
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.RemoteIndex"
+  - Name: RemoteElement
+    Id: g=19275bfc8c8017c0c243246f66f9e646
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Id: g=681d1e7687ddbf78c580f9ff6b6a12ad
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.RemoteElement"
+  - Name: UnconnectedTimeout
+    Id: g=c08e8abc83e70976a831372dc2270876
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=849287805109896f219e24801ef015cf
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.UnconnectedTimeout"
+  - Name: ConnectionRate
+    Id: g=67412492564f40137b0279558e2e8c8f
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=e2d06f174e276ed778dfcfe1f0345760
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.ConnectionRate"
+  - Name: TimeoutMultiplier
+    Id: g=53763fee9a01ab44cf1b9c8ce468dccf
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=706c4794c7d67c0d11a75b16d97b18e7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrGet.TimeoutMultiplier"
+- Name: APF_AddrInfo
+  Id: g=0ad9d6c83d656889d318cac6b5ab2693
+  Type: AddrInfo
+  DataType: AddrInfo
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "717d3c1905060d17ee6bc22cf6c2e12f",
+     "Namespace": 7
+    },
+    "Body": {
+     "IPAddress": [0,0,0,0],
+     "Subnet": [0,0,0,0],
+     "Gateway": [0,0,0,0],
+     "DNS_Pri": [0,0,0,0],
+     "DNS_Sec": [0,0,0,0],
+     "Domain": [0,0,0,0]
+    }
+   }
+  Children:
+  - Name: IPAddress
+    Id: g=c844a6fc0ebe271f6afecb11c39d5c19
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=583ccaa39033a5880e08c6ee5b698df0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.IPAddress"
+  - Name: Subnet
+    Id: g=f3d247ec42710346cb9850b6cd520ed7
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=44c0766fc22dc427fb488ec4d469d1f5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.Subnet"
+  - Name: Gateway
+    Id: g=1bf6d7ab2b8caf0ec5bcbda59a085b97
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=b5b37f9e6367fe17a3221a1ed94219ec
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.Gateway"
+  - Name: DNS_Pri
+    Id: g=5cadb87acd8cd3c40855be2a34769fa0
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=6a9f921ef9c2b07e62e628a00fdc7d38
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.DNS_Pri"
+  - Name: DNS_Sec
+    Id: g=e953ae76f84f0167f411ffbce9e0eb4b
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=27f371dc7bf9634fba9ab9dff7cc6b8c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.DNS_Sec"
+  - Name: Domain
+    Id: g=81c7c08eef75b2d89539dc1cd54bc774
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Id: g=3ca2433edadba8fe0cd2b083230a67d4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_AddrInfo.Domain"
+- Name: APF_AddrONS
+  Id: g=e247129a65f061f38813b69c493dfcf8
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=0ca8fff3671cc0ca4ec9d838170a9ea7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.APF_AddrONS"
+- Name: APF_AddrTranslate
+  Id: g=5b276202af256631e1fab2d4deecf8c8
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=bd0ddf4a6247a44d5c5f125d85ec01a1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.APF_AddrTranslate"
+- Name: APF_Translate
+  Id: g=07612248891a69a78d54a73a3574b051
+  Type: Octet_to_IP
+  DataType: Octet_to_IP
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "12e52df9cefbabd394cb0bf93c5ac94c",
+     "Namespace": 7
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Id: g=ade9025b30620033ba14803371baca81
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=be755bb4b121209c510dbb36df06caf4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_Translate.EnableIn"
+  - Name: EnableOut
+    Id: g=8ef169bc780acc29d26b0f50337ba3ed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=491738fe478cf469bb3fca00c8532a81
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:B4_APF_01.APF_Translate.EnableOut"
+- Name: HMIDir
+  Id: g=8b9a0ed901dbfa11a8a51da869404b94
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=15c3d9920e532bfb3b2c751131f06b1b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.HMIDir"
+- Name: HMIFreq
+  Id: g=70100b434da445160233beb60bc02e49
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Id: g=d606b25af31c90969bff1b212201cee3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.HMIFreq"
+- Name: HMIReset
+  Id: g=cdf07d67a5825e3a6badb04416b9cf33
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=f921e3bda1e0f31871761d5eeb7cd100
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.HMIReset"
+- Name: HMIStart
+  Id: g=361ab9a96c202db5c687774b07d0b818
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=5e095ed705752e3b4b8d645c54ddcf0a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.HMIStart"
+- Name: HMIStop
+  Id: g=40bdccadf9e1a359abe4ab1bad3df20a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=4333a350ac61705330292307a95bd287
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.HMIStop"
+- Name: ModeAuto
+  Id: g=0f2ede28c0ad4dbf31b9c2763292d8b5
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=d1a41516ffcc3744b79e3dd5b723efea
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.ModeAuto"
+- Name: ModeManual
+  Id: g=c27e4cde96685e417ae3a034b04316cf
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Id: g=ef66457df52aa2814cf0c8cabeec5325
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:B4_APF_01.ModeManual"

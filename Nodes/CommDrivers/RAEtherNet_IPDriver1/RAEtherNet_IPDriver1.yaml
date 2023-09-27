@@ -1,0 +1,6 @@
+Name: RAEtherNet_IPDriver1
+Id: g=9a319eb02ac8389a83522406b2fe1aa7
+Type: RAEtherNetIPDriver
+Children:
+- File: RAEtherNet_IPStation1/RAEtherNet_IPStation1.yaml
+- File: RAEtherNet_IPStation2/RAEtherNet_IPStation2.yaml

@@ -1,0 +1,67 @@
+Name: Thesis_Project
+Id: g=73da48060df1b5345939680c9c071148
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=32525e4f438cc129fe0491ecdbaa1e5a
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=fd167aa3cecf5fe802d2a0ab87a55711
+    Type: PropertyType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=a7da108408d10b1f61a145cf0a7e9455
+    Type: PropertyType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=93b29fc5278277316e7c833b694f7a80
+  Type: PropertyGroup
+- Name: PasswordPolicy
+  Id: g=a383ec18d134bd0352fadda26a8bef26
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=65917521c9613623207518e3a62f0694
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=e2053f8850861921f3a00f11bd5c58a3
+    Type: PropertyType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=98a639d64035a784f4776e39b77bcf79
+    Type: PropertyType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=b6c780a3442475de4ceb334e55c5677a
+    Type: PropertyType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=628a8bdcec2d2d9ac21acd1fce27faf2
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml

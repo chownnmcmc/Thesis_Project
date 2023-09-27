@@ -1,0 +1,28 @@
+Name: TagImporter
+Id: g=10de338998357e7cf35522914345e4e7
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=f2b577e06a442e2c14058bc6b4c56cfb
+Children:
+- Name: IgnoredPLCItems
+  Id: g=03711c78b3990a425b15888771a63452
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=0ee6d5a17805e566acbc9886d21c6d73
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: Mode
+  Id: g=f0de04864476a713ccc93036c740aa1e
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
+- Name: FilePath
+  Id: g=319e55bd599d8cf7abe9657515748ae4
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/chownn/Documents/Studio 5000/Projects/RFID_V4_Demo_2_14_22.ACD"
